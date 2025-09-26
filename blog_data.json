@@ -1,0 +1,69 @@
+[
+  {
+    "niche": "Technology & Software",
+    "description": "Content focusing on new gadgets, programming, AI, and digital transformation.",
+    "post_types": [
+      "Review & Unboxing",
+      "Programming Tutorial",
+      "Industry Trend Analysis",
+      "Comparison (X vs Y)",
+      "Troubleshooting Guide"
+    ],
+    "example_voices": [
+      "Highly Technical",
+      "Visionary & Forward-Looking",
+      "Practical & Action-Oriented",
+      "Skeptical/Critical",
+      "Enthusiastic"
+    ],
+    "example_ctas": [
+      "Subscribe to our weekly tech briefing",
+      "Download the complete code repository",
+      "Comment with your favorite new gadget"
+    ]
+  },
+  {
+    "niche": "Health & Wellness",
+    "description": "Content related to physical fitness, mental health, nutrition, and lifestyle improvements.",
+    "post_types": [
+      "Myth vs Fact",
+      "Personal Journey/Testimonial",
+      "Scientific Deep Dive",
+      "Daily Routine Planner",
+      "Beginner's Guide"
+    ],
+    "example_voices": [
+      "Empathetic & Supportive",
+      "Evidence-Based/Academic",
+      "Motivational & Inspiring",
+      "Gentle & Reassuring"
+    ],
+    "example_ctas": [
+      "Share this post with a friend who needs it",
+      "Sign up for our 7-day wellness challenge",
+      "Consult your doctor before making changes"
+    ]
+  },
+  {
+    "niche": "Finance & Investing",
+    "description": "Content on personal finance, market analysis, budgeting, and wealth management.",
+    "post_types": [
+      "Market Update",
+      "Budgeting Guide",
+      "Investment Strategy",
+      "Taxation Explainer",
+      "Retirement Planning"
+    ],
+    "example_voices": [
+      "Formal & Authoritative",
+      "Accessible/Jargon-Free",
+      "Cautionary",
+      "Optimistic"
+    ],
+    "example_ctas": [
+      "Book a free consultation with our financial advisor",
+      "Download the free budget tracker template",
+      "Check out our recommended investment platform"
+    ]
+  }
+]
