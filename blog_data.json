@@ -1,69 +1,142 @@
 [
   {
-    "niche": "Technology & Software",
-    "description": "Content focusing on new gadgets, programming, AI, and digital transformation.",
-    "post_types": [
-      "Review & Unboxing",
-      "Programming Tutorial",
-      "Industry Trend Analysis",
-      "Comparison (X vs Y)",
-      "Troubleshooting Guide"
-    ],
-    "example_voices": [
-      "Highly Technical",
-      "Visionary & Forward-Looking",
-      "Practical & Action-Oriented",
-      "Skeptical/Critical",
-      "Enthusiastic"
-    ],
-    "example_ctas": [
-      "Subscribe to our weekly tech briefing",
-      "Download the complete code repository",
-      "Comment with your favorite new gadget"
-    ]
+    "niche": "Beauty & Skincare",
+    "description": "Tips, reviews, and routines for skincare, makeup, and grooming.",
+    "post_types": ["Product Review", "Routine Breakdown", "Ingredient Spotlight", "DIY Tutorial", "Before & After"],
+    "voice_styles": ["Confident & Trendy", "Honest & Relatable", "Expert-Led"],
+    "ctas": ["Try this routine for 7 days", "Share your favorite product", "Shop the look"]
   },
   {
-    "niche": "Health & Wellness",
-    "description": "Content related to physical fitness, mental health, nutrition, and lifestyle improvements.",
-    "post_types": [
-      "Myth vs Fact",
-      "Personal Journey/Testimonial",
-      "Scientific Deep Dive",
-      "Daily Routine Planner",
-      "Beginner's Guide"
-    ],
-    "example_voices": [
-      "Empathetic & Supportive",
-      "Evidence-Based/Academic",
-      "Motivational & Inspiring",
-      "Gentle & Reassuring"
-    ],
-    "example_ctas": [
-      "Share this post with a friend who needs it",
-      "Sign up for our 7-day wellness challenge",
-      "Consult your doctor before making changes"
-    ]
+    "niche": "Career & Job Search",
+    "description": "Advice on job hunting, workplace skills, and time management.",
+    "post_types": ["Resume Tips", "Productivity Hacks", "Interview Prep", "Career Path Explainers"],
+    "voice_styles": ["Professional", "Encouraging", "Strategic"],
+    "ctas": ["Download our resume template", "Join our productivity challenge", "Comment with your career goals"]
+  },
+  {
+    "niche": "DIY & Crafts",
+    "description": "Creative projects for home, gifts, and hobbies.",
+    "post_types": ["Step-by-Step Tutorial", "Seasonal Craft Ideas", "Budget-Friendly Projects"],
+    "voice_styles": ["Playful & Creative", "Instructional", "Family-Friendly"],
+    "ctas": ["Pin this for later", "Share your version", "Download the materials list"]
+  },
+  {
+    "niche": "Education & E-Learning",
+    "description": "Study tips, academic insights, and lifelong learning resources.",
+    "post_types": ["Study Guide", "Explainer Series", "Learning Challenge", "Resource Roundup"],
+    "voice_styles": ["Academic", "Supportive", "Curious"],
+    "ctas": ["Download the study planner", "Subscribe for weekly lessons", "Share with a fellow learner"]
+  },
+  {
+    "niche": "Entertainment & Pop Culture",
+    "description": "Movie reviews, celebrity news, and trending media.",
+    "post_types": ["Top 10 Lists", "Reaction Posts", "Behind-the-Scenes", "Fan Theories"],
+    "voice_styles": ["Casual", "Witty", "Opinionated"],
+    "ctas": ["Vote for your favorite", "Comment your thoughts", "Share with fellow fans"]
+  },
+  {
+    "niche": "Fashion & Style",
+    "description": "Outfit inspiration, seasonal trends, and wardrobe tips.",
+    "post_types": ["Lookbook", "Trend Forecast", "Style Guide", "Brand Spotlight"],
+    "voice_styles": ["Stylish", "Confident", "Minimalist"],
+    "ctas": ["Shop the look", "Tag your outfit", "Download the style checklist"]
   },
   {
     "niche": "Finance & Investing",
-    "description": "Content on personal finance, market analysis, budgeting, and wealth management.",
-    "post_types": [
-      "Market Update",
-      "Budgeting Guide",
-      "Investment Strategy",
-      "Taxation Explainer",
-      "Retirement Planning"
-    ],
-    "example_voices": [
-      "Formal & Authoritative",
-      "Accessible/Jargon-Free",
-      "Cautionary",
-      "Optimistic"
-    ],
-    "example_ctas": [
-      "Book a free consultation with our financial advisor",
-      "Download the free budget tracker template",
-      "Check out our recommended investment platform"
-    ]
+    "description": "Money management, budgeting, and investment strategies.",
+    "post_types": ["Budget Breakdown", "Investment Tips", "Debt-Free Journey", "Savings Challenge"],
+    "voice_styles": ["Practical", "Empowering", "Analytical"],
+    "ctas": ["Start your budget today", "Download the finance tracker", "Share your savings goal"]
+  },
+  {
+    "niche": "Fitness & Wellness",
+    "description": "Workout plans, mental health tips, and holistic wellness.",
+    "post_types": ["Workout Routine", "Mindfulness Guide", "Nutrition Tips", "Progress Tracker"],
+    "voice_styles": ["Motivational", "Supportive", "Scientific"],
+    "ctas": ["Start your 30-day challenge", "Track your progress", "Share your wellness goal"]
+  },
+  {
+    "niche": "Food & Recipes",
+    "description": "Delicious recipes, cooking tips, and food photography.",
+    "post_types": ["Recipe Card", "Meal Prep Guide", "Ingredient Spotlight", "Cooking Hacks"],
+    "voice_styles": ["Warm", "Inviting", "Detailed"],
+    "ctas": ["Download the recipe", "Share your dish", "Pin for later"]
+  },
+  {
+    "niche": "Gaming",
+    "description": "Game reviews, walkthroughs, and industry news.",
+    "post_types": ["Game Review", "Strategy Guide", "Patch Notes", "Streamer Spotlight"],
+    "voice_styles": ["Energetic", "Nerdy", "Critical"],
+    "ctas": ["Join the discussion", "Watch the stream", "Download the guide"]
+  },
+  {
+    "niche": "Health & Nutrition",
+    "description": "Balanced eating, supplements, and health tips.",
+    "post_types": ["Meal Plan", "Supplement Review", "Health Mythbusters", "Diet Explainers"],
+    "voice_styles": ["Scientific", "Empathetic", "Clear"],
+    "ctas": ["Download the meal plan", "Share your health journey", "Try this recipe"]
+  },
+  {
+    "niche": "Home & Garden",
+    "description": "Interior design, gardening tips, and home improvement.",
+    "post_types": ["Room Makeover", "Plant Care Guide", "DIY Decor", "Seasonal Checklist"],
+    "voice_styles": ["Cozy", "Practical", "Aesthetic"],
+    "ctas": ["Download the decor guide", "Share your garden", "Pin this project"]
+  },
+  {
+    "niche": "Lifestyle",
+    "description": "Daily routines, habits, and personal growth.",
+    "post_types": ["Morning Routine", "Life Hacks", "Habit Tracker", "Monthly Recap"],
+    "voice_styles": ["Reflective", "Casual", "Optimistic"],
+    "ctas": ["Start your habit tracker", "Share your routine", "Download the planner"]
+  },
+  {
+    "niche": "Mental Health",
+    "description": "Emotional wellness, therapy insights, and coping strategies.",
+    "post_types": ["Self-Care Checklist", "Therapy Explainers", "Mood Tracker", "Personal Story"],
+    "voice_styles": ["Compassionate", "Vulnerable", "Supportive"],
+    "ctas": ["Download the self-care guide", "Share your story", "Try this journaling prompt"]
+  },
+  {
+    "niche": "Parenting",
+    "description": "Tips for raising kids, family routines, and parenting challenges.",
+    "post_types": ["Age-Based Advice", "Parenting Hacks", "Family Activities", "Milestone Tracker"],
+    "voice_styles": ["Warm", "Practical", "Empathetic"],
+    "ctas": ["Download the milestone chart", "Share your parenting win", "Join the parent group"]
+  },
+  {
+    "niche": "Personal Development",
+    "description": "Growth mindset, goal setting, and self-improvement.",
+    "post_types": ["Goal Tracker", "Mindset Shift", "Book Review", "Challenge Series"],
+    "voice_styles": ["Inspirational", "Reflective", "Action-Oriented"],
+    "ctas": ["Start your growth challenge", "Download the goal planner", "Share your progress"]
+  },
+  {
+    "niche": "Pets & Animals",
+    "description": "Pet care, training tips, and animal stories.",
+    "post_types": ["Breed Guide", "Training Tips", "Pet Product Review", "Adoption Story"],
+    "voice_styles": ["Friendly", "Informative", "Heartwarming"],
+    "ctas": ["Share your pet photo", "Download the care checklist", "Join the pet community"]
+  },
+  {
+    "niche": "Relationships & Dating",
+    "description": "Advice on love, communication, and emotional connection.",
+    "post_types": ["Date Ideas", "Conflict Resolution", "Love Language Explainers", "Personal Story"],
+    "voice_styles": ["Romantic", "Honest", "Supportive"],
+    "ctas": ["Share your love story", "Try this date idea", "Download the relationship guide"]
+  },
+  {
+    "niche": "Tech & Gadgets",
+    "description": "Latest tech news, product reviews, and how-tos.",
+    "post_types": ["Gadget Review", "Tech Explainer", "Setup Guide", "Comparison Post"],
+    "voice_styles": ["Analytical", "Trendy", "Straightforward"],
+    "ctas": ["Download the setup guide", "Watch the demo", "Compare specs"]
+  },
+  {
+    "niche": "Travel & Adventure",
+    "description": "Destination guides, travel tips, and cultural insights.",
+    "post_types": ["Itinerary", "Packing List", "Travel Diary", "Local Spotlight"],
+    "voice_styles": ["Wanderlust-Driven", "Informative", "Visual"],
+    "ctas": ["Download the itinerary", "Share your travel story", "Pin this destination"]
   }
 ]
